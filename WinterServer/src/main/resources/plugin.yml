@@ -1,0 +1,36 @@
+name: winter
+version: '${project.version}'
+main: winter.winterserver.Winter
+api-version: '1.20'
+
+commands:
+  MyLocation:
+    description: send your location to your chat
+    usage: /MyLocation
+    aliases:
+      - mlc
+  LocationToChat:
+    description: send your location to everyone chat
+    usage: /LocationToChat
+    aliases:
+      - mlctc
+  NeitherLocation:
+    description: your neither location
+    usage: /NeitherLocation
+    aliases:
+      - nlc
+  OverWorldLocation:
+    description: you OverWorld loaction
+    usage: /OverWorldLocation
+    aliases:
+      - olc
+  LastDeadLocation:
+    description: get your last dead location
+    usage: /LastLocation
+    aliases:
+      - ldl
+  SkipNight:
+    description: agree for skipping night
+    usage: /SkipNight
+    aliases:
+      - sn
